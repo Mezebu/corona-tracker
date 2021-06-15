@@ -12,7 +12,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_COVID_TRACKER_855CA }}'
-          projectId: covid-tracker-855ca
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CORONA_TRACKER_AB94B }}'
+          projectId: corona-tracker-ab94b
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
