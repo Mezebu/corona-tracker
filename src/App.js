@@ -27,8 +27,8 @@ const App = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.headertext}>COVID TRACKER</h1>
-      <Cards data={items} />
       <Countries handleCountryChange={handleCountryChange} />
+      <Cards data={items} />
       <Chart data={items} country={country} setCountry={setCountry} />
     </div>
   );
